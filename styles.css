@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url('images/header.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+ header nav{
+   display:flex;
+   justify-content: space-around;
+   margin-left: auto;
+}
+
+ header h2{
+   font-family: Open Sans;
+
+ }
+a:link {
+  color:red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+p{
+  font-family: "Open Sans";
+}
+
+
+header nav h6 a{
+  text-decoration: none;
+  color: white;
+}
+
+header nav h6 img{
+  vertical-align: middle;
+}
+
+ header nav ul{
+   list-style: none;
+
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: Open Sans;
+  font-size: 10px;
+
+
+}
+
+.Main{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.second{
+  display flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+h1{
+  vertical-align: middle;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 95px;
+  text-align-last: center;
+
+
+}
+
+h6{
+  vertical-align: middle;
+  font-family: "Open Sans";
+  text-align: center;
+
+
+}
+
+h4{
+  font-size: 30px;
+  font-family: "Open Sans";
+  color: navy;
+
+}
+
+
+h2#header-title {
+  font-size: 10px;
+
+}
+#header-title {
+  display: flex;
+  align-items: center;
+}
+
+
+
+#header-title img {
+  margin-right: 10px;
+}
+
+aside
